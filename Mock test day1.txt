@@ -1,0 +1,327 @@
+1.Java is high level programming language.
+  java is invented Games Gosling in 1995 may
+  java is a high Speed
+  java is a platform independent
+  it perform high compare to other language c,c++
+  Ex:filename.java
+  
+  javac 
+  Javac is java Compiler when the Code end its compile the code
+  .class cant need to compile the code
+
+2.JDK [Java Development Kit]
+  its write and exicute the program'
+  it consists of Libraries + JRE[Java Run-time Environment]
+  Libraries + JRE =JDK
+  its loades verfies and exicutes the program
+  
+  JRE[Java Run-time Environment]
+  its used to exicute the program.
+  its consists of tools+JVM.
+
+  JVM [Java Virtual Machin]
+  it is used to convert the java code into byte code is called JVM
+  .byte code into java code(.class)
+  the .class files is no need to compile,
+
+3. .java file: it is a java exicution,which is used in the store the file in the particular java file 
+   .class: it is the copy of the .java file to class file, .class file is not need to compile
+ 
+4. Java Intigreted Development Edition : it is a platform to run the java code
+   a software application which enables users to more easily write and debug Java programs. Many IDEs provide features like syntax highlighting and code completion, which help the user to code more easily.
+
+5.Variable is a storing the information
+  Variable doesnot allow Spaces
+  Variable can be accesed
+  Variable are Declared in 4 ways
+          > Literals 
+          > Method
+          > Constructors
+          > Reference
+  Literals are initialize the values to the reference variable
+  Ex: String name="kavya";
+  Method are the collection of Statement or it is a byte of code its exicute when its call,
+  Constructor is a special method
+              it is a non static special method
+              same name as the class name
+              no return type,
+  Reference Variable it holds the address of the another variables
+                    its storing the information of the other class
+  Variable can divided into 2 types
+      1. Class Variable                
+          > Static Variable
+          > non-static Variable/Instance Variable
+      2. Method Variable
+          > Local Variable
+          > Parameter Variable
+
+6. Object-Oriented Programming in java
+   oop's Concept in java is very important thing
+   Object is a real time entity,what we can see the living and non-living tings
+   Object is a instance of class,
+   C,C++ are the Object-oriented Programmin language
+   it has 4 principle
+   * Inheritance  
+   * Polymorphism
+   * Encapsulation
+   * Abstraction
+  
+  * Inheritance : it Acquring the properties of another class
+                  its derving the base class to the sub class
+                  its extracking the properties of the parent class to child class
+            is has some types
+            > Single Inheritance
+            > Multiple Inheritance
+            > Multilevel Inheritance
+            > Hybrid Inheritance
+            > Hyrachiel Inheritance
+
+  * Polymorphism :  it has two word poly means many morphism means forms
+                    same name but different Functionalities
+                    Ex: car is the name Accelrater,break,gear, this are functionalities
+                    Polimorphism : is classified has Two types
+                       1. Compile time Polimorphism
+                           > Class Overloading
+                           > Method Overloading
+                       2. Run time Polimorphism
+
+  * Encapsulation : Wrapping up of data
+                    wrapping up of a code in to the one place or single unit
+                    Ex: Bank Account
+  * Abstraction : it is a hiding the infomation
+                  the process of hiding the implementation of details.
+                  Abstraction is a keyword
+     Ex: Car
+         when we start the car by using the key what we dont need to know how to start the car/ how to start the engine
+
+7.Error
+
+8. Data type
+   the values and sizes are stored with respective Data types
+   types of data stored in the data types
+   its is used to memory storage
+   Data types are classified into two types they are
+   1. Primitive Data types: is a predefined data types
+      they are 8 types
+         1.int
+         2.float
+         3.byte
+         4.boolean
+         5.long
+         6.double
+         7.char
+         8.short
+      Ex: class Person{
+               String name;
+               int age;
+          }
+
+  2. Non-Primitive Data types : What we declared its non-primitive
+      its infinite non-primitive data types
+        1.Array
+        2.class
+        3.hashes
+        4.String
+          .......etc
+    Ex: laptop,mobile,watch......
+        
+9. Dot operator is used to access the variable name and method from the class
+    Ex: class Academic{
+	
+	static void syllabus(){
+		System.out.println("syllabus");
+	}
+   System.out.println("syllabus");
+   
+   System : is the Class name
+   out : is the variable name
+   println : is the method name
+
+10. Java is high level programming language.
+    java is invented Games Gosling in 1995 may
+    java is a high Speed
+    java is a platform independent
+    it perform high compare to other language c,c++
+    Java is a general purpose programming language
+    Multithreading
+    Secure
+    Robust
+    Speed
+    Object-oriented
+    Ex:java filename
+
+11. Array is the collection of same type of element
+    or array is collection of references
+    array is a primitive data type
+    Array can be declared by using []
+    Array initialize start with the 0,1,2,3,.......n
+    Ex; n=[0],[1],[2],[3],[4],.......[n]
+     
+   class abc
+   {
+    int a[]={1,2,3,4,5,};
+   }
+
+12. Class
+    class is a keyword
+    class is collection of objcet
+    class is templet,blue print
+    the class name Should be in Capital letter
+    Syntax : class name
+             {
+               //code
+             }
+    
+    Ex: Class Laptop                   class Object{
+        {                               public static void main(String[] args){   
+         String brand;                  System.out.println("Hello");
+         doublr price;                 }
+        }                             |}
+
+    Object 
+    Object is a real time entity
+    its is a instance of class
+    whatever is see in the world living and non-living things are the Objects
+    Ex: Mobile
+        Telivision
+13. Keyword is the pre-defined words
+    they are 48 keywords in java
+    new
+    Abstract    final
+    Continue    finally
+    byte        throw
+    boolean     throws
+    break
+    class        
+    char
+    int
+    for
+    float
+    while
+    default
+    assert
+    void
+    if
+    instance
+    import
+    impliment
+    super
+    this
+    Ex: 
+       class MatchBox{
+	
+	String brand;
+	int noOfSticks;
+	double length;	
+	MatchBox(String brand){
+		
+		this.brand=brand;
+		System.out.println("MatchBox brand is: "+brand);
+	}
+	MatchBox(String brand,int noOfSticks){
+		
+		this.brand=brand;
+		this.noOfSticks=noOfSticks;
+		System.out.println("MatchBox brand is: "+brand+" noOfSticks are "+noOfSticks);
+	}
+	MatchBox(String brand,int noOfSticks,double length){
+		
+		this.brand=brand;
+		this.noOfSticks=noOfSticks;
+		this.length=length;
+		System.out.println("MatchBox brand is: "+brand+"\n noOfSticks are "+noOfSticks+" \nlength is "+length);
+	}
+       	public static void main(String[] matchboxes){
+			
+		MatchBox matchbox=new MatchBox("lion");
+		System.out.println("MatchBox brand is :"+matchbox.brand);
+		System.out.println("MatchBox noOfSticks is :"+matchbox.noOfSticks);
+		System.out.println("MatchBox length is :"+matchbox.length);
+
+		MatchBox matchbox1=new MatchBox("lion",50);
+		System.out.println("MatchBox1 brand is :"+matchbox1.brand);
+		System.out.println("MatchBox1 noOfSticks is :"+matchbox1.noOfSticks);
+		System.out.println("MatchBox1 length is :"+matchbox1.length);
+       }
+}
+
+
+14. Constructor 
+    is a special method
+    is a non-static special method
+    is a same name as class name 
+    no return type
+    Constructor has 3 types
+      1.default Constructor
+      2.parameterized Constructor
+      3.copy Constructor
+  Ex:
+       class MatchBox
+      {
+       String brand;
+
+       MatchBox(String brand)
+      {
+	System.out.println("MatchBox brand is: "+brand);
+      }
+    }
+15. Because Static can access the class name
+    non-static can access the reference name
+    Java provides some pre-defined ( system defined) methods, for example System. out. println(), but user defined methods can also be created.
+
+16.class Array
+   {
+   Public Static Void main(String [] args)
+   {
+     int[]num={12,3,2,45,6,7,6};
+     System.out.println("length of the array")
+   }
+   }
+
+17.Method are the collection of Statement or it is a byte of code its exicute when its call,
+   
+   Method and Method Overloading
+   we can say that Method overloading is a concept of Java in which we can create multiple methods of the same name in the same class, and all methods work in different ways.
+   When more than one method of the same name is created in a Class, this type of method is called the Overloaded Method
+   EX: 
+   class Kidney{
+	
+	 String shape;
+	 double noOfkidney;
+	 boolean available;
+	 int size;
+	 double cost;
+
+      Kidney(){
+	System.out.println("Kidney created....");
+     }
+    public static void main(String[] args)
+	{
+		System.out.println("Starting maain in Kidney");
+		Kidney kidney=new Kidney();
+		System.out.println("Kidney shape is:"+kidney.shape);
+		System.out.println("Kidney noOfkidney is:"+kidney.noOfkidney);
+		System.out.println("Kidney available is:"+kidney.available);
+		System.out.println("Kidney size is:"+kidney.size);
+		System.out.println("Kidney cost is:"+kidney.cost);
+		Kidney kidney1=new Kidney();
+		System.out.println("Kidney shape is:"+kidney1.shape);
+		System.out.println("Kidney noOfkidney is:"+kidney1.noOfkidney);
+		System.out.println("Kidney available is:"+kidney1.available);
+		System.out.println("Kidney size is:"+kidney1.size);
+		System.out.println("Kidney cost is:"+kidney1.cost);
+		System.out.println("Ending maain in Kidney");
+	}
+}
+
+   
+	
+
+
+
+    
+
+           
+
+
+  
